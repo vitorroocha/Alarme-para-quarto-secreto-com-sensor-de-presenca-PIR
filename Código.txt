@@ -1,4 +1,4 @@
-//DeclaraÁ„o das vari·veis
+//Declara√ß√£o das vari√°veis
 int pinBuzzer = 7;
 int pinSensorPIR = 8;
 int pinLed = 9;
@@ -7,7 +7,7 @@ int valorSensorPIR = 0;
 void setup() {
   Serial.begin(9600); //Inicializando o serial monitor
  
-  //Definido pinos como de entrada ou de saÌda
+  //Definido pinos como de entrada ou de sa√≠da
   pinMode(pinBuzzer,OUTPUT);
   pinMode(pinSensorPIR,INPUT);
   pinMode(pinLed,OUTPUT);
@@ -15,13 +15,13 @@ void setup() {
  
 void loop() {  
   //Lendo o valor do sensor PIR. Este sensor pode assumir 2 valores
-  //1 quando detecta algum movimento e 0 quando n„o detecta.
+  //1 quando detecta algum movimento e 0 quando n√£o detecta.
   valorSensorPIR = digitalRead(pinSensorPIR);
    
   Serial.print("Valor do Sensor PIR: ");  
   Serial.println(valorSensorPIR);
    
-  //Verificando se ocorreu detecÁ„o de movimentos
+  //Verificando se ocorreu detec√ß√£o de movimentos
   if (valorSensorPIR == 1) {
     ligarAlarme();
   } else {
