@@ -1,10 +1,10 @@
 # Alarme-para-quarto-secreto-com-sensor-de-presenca-PIR
                             
-                            Descrição do Projeto
+                            # Descrição do Projeto
 
 O projeto é constituído por um alarme que dispara um sinal sonoro ao detectar movimentos em um quarto, feito para sinalizar a presença desejada ou indesejada de alguém no quarto.
                             
-                           Componentes que serão necessários para o desenvolvimento
+                           # Componentes que serão necessários para o desenvolvimento
                              
 Arduino,
 1 sensor de movimentos/presença PIR,
