@@ -6,11 +6,11 @@ O projeto é constituído por um alarme que dispara um sinal sonoro ao detectar 
                             
                            Componentes que serão necessários para o desenvolvimento
                              
--Arduino;
--sensor de movimentos/presença PIR;
--led;
--buzzer;
--2 resistores de 220 ohms;
--protoboard;
--Fonte de 9 volts.
+Arduino,
+-1 sensor de movimentos/presença PIR,
+1 led,
+1 buzzer,
+2 resistores de 220 ohms,
+1 protoboard e
+1 Fonte de 9 volts.
                              
